@@ -19,7 +19,9 @@ discord_token = os.environ['discord_bot_token']
 class Jeopardy:
     async def get_question(guild, message, channel):
       if str(guild.id) not in db["guilds"]:
+        ### This is the start of the funnel if someone triggers the bot, so we'll set it up here.
         Bot.setup(guild,message.author)
+      ### I re-use this a lot. To-do is to clean it up.
       gld = db["guilds"][str(guild.id)]
       if gld["active_question"] is True:
         embed=discord.Embed(title="Category: {}".format(gld["question"]["category"]["title"]), description="For ${}, {}".format(gld["question"]["value"],gld["question"]["question"]))
@@ -36,9 +38,13 @@ class Jeopardy:
                 continue
         gld["question"] = question[0]
         gld["question"]["answer"] = re.sub(r"\<[^>]*>", '', question[0]["answer"], flags=re.IGNORECASE)
+        ### Storing this for later use by the Wiki functionality
         gld["wikipedia"] = gld["question"]["answer"]
+        ### Printing the answer to the console so you can easily debug (or cheat, you monster).
         print(gld["wikipedia"])
         gld["active_question"] = True
+        ### I have no idea why this extra character is added to the end, but we need to snip it off.
+        ### This takes two lines to parse the date, but it definitely helps with context for some of the questions.
         dp = parser.parse(gld["question"]["airdate"][:-1])
         d = datetime.strftime(dp, "%B %d %Y")
     
@@ -86,7 +92,6 @@ class Bot:
         db["guilds"] = {}
       if not pcheck:
         db["players"] = {}
-      print(guild)
       guild_id = str(guild)
       if guild_id not in db["guilds"]:
         print("Creating Guild... ")
@@ -100,20 +105,21 @@ class Bot:
         db["players"][player.display_name]["last_question"] = 0
     
     def admin_tools(guild,user,channel,action):
-      #Not working
       if not user.guild_permissions.administrator:
         update = "Sorry, only admin can reset the Jeopardy score.\nUse ❓ to request a question.\nUse 🏅 to check the leaderboard."
       else:
         if action == "reset":
-    #db call reset scores
+            for player in db["players"].values():
+                if player["guild"] == str(guild):
+                    player["score"] = 0
             update = "Scores have been reset!\nUse ❓ to request a question."
     
       return update
     
     def get_leaderboard(guild):
-      #Not working
       for player in db["players"]:
         leaders = {}
+        ### This is a very cumbersome way to search for players, but it's such a small database that it shouldn't be a problem.
         if db["players"][player]["guild"] == str(guild):
           leader = {player: {'name': player, 'score': db["players"][player]["score"]}}
           leaders.update(leader)
@@ -196,7 +202,7 @@ async def on_message(message):
     await Jeopardy.get_question(message.guild,message,channel)
 
   if message.content.startswith('🏅'):
-    result = Bot.get_leaderboard(message.guild.id,channel)
+    result = Bot.get_leaderboard(message.guild.id)
 
     await channel.send(result)
 

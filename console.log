@@ -852,3 +852,15 @@ INFO:root:Answer post-decoding: oysters
 INFO:root:Checking for user...
 INFO:root:User found, updating score...
 INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-b8mz",{"micros":178031,"calls":["discord-sessions-green-prd-2-21",{"micros":172173,"calls":["start_session",{"micros":124517,"calls":["discord-api-8786555cd-k9xb6",{"micros":118549,"calls":["get_user",{"micros":23693},"add_authorized_ip",{"micros":21897},"get_guilds",{"micros":14050},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8492,"calls":[]}]}]}] (Session ID: 027660183f32f63e58746f36d831d725).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-mh3d",{"micros":85183,"calls":["discord-sessions-green-prd-2-90",{"micros":81685,"calls":["start_session",{"micros":49666,"calls":["discord-api-8786555cd-q92ml",{"micros":44884,"calls":["get_user",{"micros":8455},"add_authorized_ip",{"micros":1901},"get_guilds",{"micros":5377},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":7410,"calls":[]}]}]}] (Session ID: e8fcc3f82f21811a6b9895a08c60d914).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-6v4c",{"micros":100538,"calls":["discord-sessions-green-prd-2-63",{"micros":99273,"calls":["start_session",{"micros":68866,"calls":["discord-api-8786555cd-6j5sj",{"micros":62245,"calls":["get_user",{"micros":15226},"add_authorized_ip",{"micros":2157},"get_guilds",{"micros":7442},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 64c4e1a543f92d295930612a1ba86563).
