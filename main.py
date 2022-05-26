@@ -11,23 +11,16 @@ from replit import db
 import requests
 from unidecode import unidecode
 
-### SETUP ###
 logging.basicConfig(filename='console.log', level=logging.INFO)
 client = discord.Client()
 wikipedia = MediaWiki()
 discord_token = os.environ['discord_bot_token']
-gcheck = db.prefix("guilds")
-pcheck = db.prefix("players")
-if not gcheck:
-  db["guilds"] = {}
-if not pcheck:
-  db["players"] = {}
 
 class Jeopardy:
     async def get_question(guild, message, channel):
-      Bot.setup(guild,message.author)
-      guild_id = str(guild.id)
-      gld = db["guilds"][guild_id]
+      if str(guild.id) not in db["guilds"]:
+        Bot.setup(guild,message.author)
+      gld = db["guilds"][str(guild.id)]
       if gld["active_question"] is True:
         embed=discord.Embed(title="Category: {}".format(gld["question"]["category"]["title"]), description="For ${}, {}".format(gld["question"]["value"],gld["question"]["question"]))
         await channel.send(embed=embed)
@@ -44,24 +37,23 @@ class Jeopardy:
         gld["question"] = question[0]
         gld["question"]["answer"] = re.sub(r"\<[^>]*>", '', question[0]["answer"], flags=re.IGNORECASE)
         gld["wikipedia"] = gld["question"]["answer"]
+        print(gld["wikipedia"])
         gld["active_question"] = True
         dp = parser.parse(gld["question"]["airdate"][:-1])
         d = datetime.strftime(dp, "%B %d %Y")
-        print(gld["question"]["answer"])
     
         embed=discord.Embed(title="Category: {}".format(gld["question"]["category"]["title"]), description="For ${}, {}".format(gld["question"]["value"],gld["question"]["question"]))
         embed.set_footer(text="Airdate: {}".format(d))
         await channel.send(embed=embed)
-        client.loop.create_task(Timers.question_timer(guild_id,channel,gld["question"]["id"]))
+        client.loop.create_task(Timers.question_timer(str(guild.id),channel,gld["question"]["id"]))
       else:
         await channel.send("Could not find question. Perhaps something is wrong?")
     
     async def check_answer(guild, message, channel, player):
-        Bot.setup(guild,player)
-        guild_id = str(guild)
-        gld = db["guilds"][guild_id]
-        question = gld["question"]
-        if not question:
+        if str(guild) not in db["guilds"]:
+          Bot.setup(guild,message.author)
+        gld = db["guilds"][str(guild)]
+        if gld["active_question"] == False:
             logging.info("No active question")    
         else:
             logging.info("Found active question")
@@ -87,20 +79,28 @@ class Jeopardy:
 class Bot:
     def setup(guild,player):
       print("Starting setup...")
+      ### New Guild Setup ###
+      gcheck = db.prefix("guilds")
+      pcheck = db.prefix("players")
+      if not gcheck:
+        db["guilds"] = {}
+      if not pcheck:
+        db["players"] = {}
+      print(guild)
       guild_id = str(guild)
-      gld = db["guilds"][guild_id]
       if guild_id not in db["guilds"]:
         print("Creating Guild... ")
-        gld = {}
-        gld["active_question"] = False
-        print(gld)
+        db["guilds"][guild_id] = {}
+        db["guilds"][guild_id]["active_question"] = False
       if player.display_name not in db["players"]:
         print("Creating Player... " + player.display_name)
         db["players"][player.display_name] = {}
+        db["players"][player.display_name]["guild"] = guild_id
         db["players"][player.display_name]["score"] = 0
         db["players"][player.display_name]["last_question"] = 0
     
     def admin_tools(guild,user,channel,action):
+      #Not working
       if not user.guild_permissions.administrator:
         update = "Sorry, only admin can reset the Jeopardy score.\nUse ❓ to request a question.\nUse 🏅 to check the leaderboard."
       else:
@@ -110,16 +110,21 @@ class Bot:
     
       return update
     
-    def get_leaderboard(guild, message):
-    #db call get top scores
+    def get_leaderboard(guild):
+      #Not working
+      for player in db["players"]:
+        leaders = {}
+        if db["players"][player]["guild"] == str(guild):
+          leader = {player: {'name': player, 'score': db["players"][player]["score"]}}
+          leaders.update(leader)
         leaderboard = "Let's take a look at the leaderboard:\n"
         place = 0
         medals = ["🥇","🥈","🥉"]
-        for leader in leaders:
-            leaderboard = leaderboard + "{} {} with a score of ${}\n".format(medals[place],leader["user"],leader["score"])
+        for leader in leaders.values():
+            leaderboard = leaderboard + "{} {} with a score of ${}\n".format(medals[place],leader["name"],leader["score"])
             place = place + 1
-    
-        return leaderboard
+
+      return leaderboard
     
     def update_score(guild, player, score, question):
       logging.info("Checking for user...")
@@ -153,9 +158,8 @@ class Wiki:
 class Timers:
     async def question_timer(guild, channel, question_id):
       print("Starting timer for {}...".format(question_id))
-      await asyncio.sleep(5)
+      await asyncio.sleep(30)
       print("Time is up for question {}".format(question_id))
-    
       if db["guilds"][guild]["active_question"] == False or db["guilds"][guild]["question"]["id"] != question_id:
         print("Question was answered")
       else:
@@ -213,6 +217,6 @@ async def on_reaction_add(reaction, user):
 
   if (reaction.emoji == "🔎"):
     if user != client.user:
-        await Wiki.get_wiki(guild,message)
+      await Wiki.get_wiki(guild,message)
 
 client.run(discord_token)

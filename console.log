@@ -593,3 +593,262 @@ INFO:root:Found a question for wikipedia
 INFO:root:Found a question for wikipedia
 INFO:root:Found a question for wikipedia
 INFO:root:Found a question for wikipedia
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ltm2",{"micros":75760,"calls":["discord-sessions-green-prd-2-3",{"micros":74621,"calls":["start_session",{"micros":42112,"calls":["discord-api-85b55d98d8-pjf5l",{"micros":37342,"calls":["get_user",{"micros":7783},"add_authorized_ip",{"micros":1442},"get_guilds",{"micros":6542},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16777,"calls":[]}]}]}] (Session ID: 541788b49934ba965f86c5aefd77082a).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-q0s0",{"micros":68549,"calls":["discord-sessions-green-prd-2-137",{"micros":67112,"calls":["start_session",{"micros":53377,"calls":["discord-api-85b55d98d8-bk29c",{"micros":48563,"calls":["get_user",{"micros":13391},"add_authorized_ip",{"micros":2512},"get_guilds",{"micros":4777},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: bd674129c9e3bf7599d668a923e2d336).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 32280, 'answer': 'Marigold', 'question': 'The African variety of this annual, seen here, has an appropriate color in its name', 'value': 500, 'airdate': '1998-12-17T12:00:00.000Z', 'created_at': '2014-02-11T23:04:54.896Z', 'updated_at': '2016-01-08T19:07:55.155Z', 'category_id': 138, 'game_id': None, 'invalid_count': 1, 'category': ObservedDict(value={'id': 138, 'title': 'gardening', 'created_at': '2014-02-11T22:47:42.507Z', 'updated_at': '2014-02-11T22:47:42.507Z', 'clues_count': 65})})
+INFO:root:Answer post-decoding: Marigold
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-s1m9",{"micros":106488,"calls":["discord-sessions-green-prd-2-155",{"micros":105358,"calls":["start_session",{"micros":42706,"calls":["discord-api-85b55d98d8-zhdpv",{"micros":37772,"calls":["get_user",{"micros":8142},"add_authorized_ip",{"micros":2794},"get_guilds",{"micros":6234},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":29739,"calls":[]}]}]}] (Session ID: 2b8197698c68e50c064f6723d18e5d1e).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 69674, 'answer': 'oats', 'question': 'When he wants to reap, Pete always sickles down this cereal, Avena sativa, which he rolls or eats Irish-style', 'value': 400, 'airdate': '2006-07-21T12:00:00.000Z', 'created_at': '2014-02-11T23:31:08.135Z', 'updated_at': '2014-02-11T23:31:08.135Z', 'category_id': 9025, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 9025, 'title': 'produce pete', 'created_at': '2014-02-11T23:31:07.807Z', 'updated_at': '2014-02-11T23:31:07.807Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: oats
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:Question with no score, tossing out.
+INFO:root:found an answer!
+INFO:root:No active question
+INFO:root:found an answer!
+INFO:root:No active question
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-45hp",{"micros":64582,"calls":["discord-sessions-green-prd-2-47",{"micros":63579,"calls":["start_session",{"micros":39896,"calls":["discord-api-7b6bc975bb-hbpj7",{"micros":35543,"calls":["get_user",{"micros":8002},"add_authorized_ip",{"micros":2351},"get_guilds",{"micros":6072},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22556,"calls":[]}]}]}] (Session ID: 7a4ec5b8801b7fc647338ebb5a234f19).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-53q7",{"micros":57847,"calls":["discord-sessions-green-prd-2-51",{"micros":57175,"calls":["start_session",{"micros":46141,"calls":["discord-api-7b6bc975bb-5hrlm",{"micros":37150,"calls":["get_user",{"micros":7970},"add_authorized_ip",{"micros":1822},"get_guilds",{"micros":5069},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 6a06fd86cf0bfcd90820dbdc19c62637).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-59nd",{"micros":96927,"calls":["discord-sessions-green-prd-2-91",{"micros":95640,"calls":["start_session",{"micros":67638,"calls":["discord-api-7b6bc975bb-pxbmx",{"micros":62527,"calls":["get_user",{"micros":16781},"add_authorized_ip",{"micros":1512},"get_guilds",{"micros":7064},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 3793bf1a26c1da89b24fb124ed38aebb).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-2jwz",{"micros":80097,"calls":["discord-sessions-green-prd-2-14",{"micros":78868,"calls":["start_session",{"micros":39067,"calls":["discord-api-7b6bc975bb-4884p",{"micros":35469,"calls":["get_user",{"micros":7433},"add_authorized_ip",{"micros":1382},"get_guilds",{"micros":4034},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11430,"calls":[]}]}]}] (Session ID: 19c83dd222f599aa78b69ae6055a2567).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-9pwj",{"micros":198747,"calls":["discord-sessions-green-prd-2-16",{"micros":197606,"calls":["start_session",{"micros":182448,"calls":["discord-api-7b6bc975bb-8j8nx",{"micros":165307,"calls":["get_user",{"micros":26082},"add_authorized_ip",{"micros":13996},"get_guilds",{"micros":35098},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":14206,"calls":[]}]}]}] (Session ID: 4e657498d4c753025c5bd353f43985fa).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-4q0b",{"micros":95748,"calls":["discord-sessions-green-prd-2-150",{"micros":94925,"calls":["start_session",{"micros":62816,"calls":["discord-api-f67d8d77-jzhnf",{"micros":53750,"calls":["get_user",{"micros":9389},"add_authorized_ip",{"micros":5011},"get_guilds",{"micros":5470},"coros_wait",{"micros":4}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: bdff8d71187f5783b2bc9a5c41494db1).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-mh3d",{"micros":91191,"calls":["discord-sessions-green-prd-2-85",{"micros":90191,"calls":["start_session",{"micros":58254,"calls":["discord-api-f67d8d77-f7qgs",{"micros":52402,"calls":["get_user",{"micros":13090},"add_authorized_ip",{"micros":1753},"get_guilds",{"micros":8193},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24982,"calls":[]}]}]}] (Session ID: a9ba9b936d2ce8dbbc80fe677d0e0638).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-d4tj",{"micros":166259,"calls":["discord-sessions-green-prd-2-146",{"micros":158157,"calls":["start_session",{"micros":86218,"calls":["discord-api-f67d8d77-6jndv",{"micros":82438,"calls":["get_user",{"micros":10922},"add_authorized_ip",{"micros":8518},"get_guilds",{"micros":14459},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 8a8c479da4d329161f4b0291475dd637).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-mnnw",{"micros":183634,"calls":["discord-sessions-green-prd-2-107",{"micros":167794,"calls":["start_session",{"micros":89243,"calls":["discord-api-f67d8d77-5rfd9",{"micros":83230,"calls":["get_user",{"micros":8799},"add_authorized_ip",{"micros":6322},"get_guilds",{"micros":23242},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":15980,"calls":[]}]}]}] (Session ID: 7be4eec7edea67c8806429302684de3c).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-j2b9",{"micros":58032,"calls":["discord-sessions-green-prd-2-8",{"micros":56685,"calls":["start_session",{"micros":38736,"calls":["discord-api-f67d8d77-6drmc",{"micros":34780,"calls":["get_user",{"micros":9174},"add_authorized_ip",{"micros":1502},"get_guilds",{"micros":4960},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17018,"calls":[]}]}]}] (Session ID: 8341f2fe92065f01206f8f50d7052b97).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-b4vb",{"micros":133101,"calls":["discord-sessions-green-prd-2-30",{"micros":129202,"calls":["start_session",{"micros":81246,"calls":["discord-api-f67d8d77-8x725",{"micros":69384,"calls":["get_user",{"micros":23302},"add_authorized_ip",{"micros":3049},"get_guilds",{"micros":5695},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":26261,"calls":[]}]}]}] (Session ID: 1d9490f88281614e520215ee00c56063).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-zznc",{"micros":65099,"calls":["discord-sessions-green-prd-2-130",{"micros":64140,"calls":["start_session",{"micros":45390,"calls":["discord-api-f67d8d77-6tdjj",{"micros":40091,"calls":["get_user",{"micros":13737},"add_authorized_ip",{"micros":1476},"get_guilds",{"micros":4621},"coros_wait",{"micros":27}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":9661,"calls":[]}]}]}] (Session ID: 30e8f5d209bd55131947a026be6eb8e2).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-grgr",{"micros":62641,"calls":["discord-sessions-green-prd-2-58",{"micros":61520,"calls":["start_session",{"micros":48484,"calls":["discord-api-f67d8d77-qnc2d",{"micros":43664,"calls":["get_user",{"micros":10340},"add_authorized_ip",{"micros":1692},"get_guilds",{"micros":6941},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":128,"calls":[]}]}]}] (Session ID: af00f38046c5e7a33a6175c757898711).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-g8c5",{"micros":108454,"calls":["discord-sessions-green-prd-2-61",{"micros":106938,"calls":["start_session",{"micros":72109,"calls":["discord-api-f67d8d77-pkds2",{"micros":64261,"calls":["get_user",{"micros":17853},"add_authorized_ip",{"micros":1590},"get_guilds",{"micros":10781},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: bd1dfa5a9e47509da4a530c365ca4c73).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-fwnv",{"micros":102309,"calls":["discord-sessions-green-prd-2-134",{"micros":101416,"calls":["start_session",{"micros":57026,"calls":["discord-api-f67d8d77-h9rgn",{"micros":51442,"calls":["get_user",{"micros":10616},"add_authorized_ip",{"micros":1973},"get_guilds",{"micros":8385},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 4bf76fad99b619f9a032b65a7779a597).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-2jcf",{"micros":106791,"calls":["discord-sessions-green-prd-2-13",{"micros":104493,"calls":["start_session",{"micros":57679,"calls":["discord-api-f67d8d77-rmpf8",{"micros":47500,"calls":["get_user",{"micros":13415},"add_authorized_ip",{"micros":3709},"get_guilds",{"micros":6944},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16329,"calls":[]}]}]}] (Session ID: 48b92c18b188b22ffdc97e6cb6dce5e9).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-2ml4",{"micros":59861,"calls":["discord-sessions-green-prd-2-148",{"micros":58800,"calls":["start_session",{"micros":47031,"calls":["discord-api-f67d8d77-ngwfl",{"micros":43509,"calls":["get_user",{"micros":7061},"add_authorized_ip",{"micros":2197},"get_guilds",{"micros":5236},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":10254,"calls":[]}]}]}] (Session ID: 395d3aa339993613a6feebbaa36de0e8).
+INFO:root:found an answer!
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-hx32",{"micros":87843,"calls":["discord-sessions-green-prd-2-153",{"micros":86862,"calls":["start_session",{"micros":53807,"calls":["discord-api-f67d8d77-bs66r",{"micros":49545,"calls":["get_user",{"micros":6658},"add_authorized_ip",{"micros":2199},"get_guilds",{"micros":8886},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18533,"calls":[]}]}]}] (Session ID: ee75ff09980007024fef1075609d77d3).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 118419, 'answer': '(Andrew) Jackson', 'question': "In the center of Lafayette Square you'll find not Lafayette but this Tennessean seventh president", 'value': 200, 'airdate': '2013-03-06T12:00:00.000Z', 'created_at': '2014-02-14T02:47:48.868Z', 'updated_at': '2014-02-14T02:47:48.868Z', 'category_id': 16201, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 16201, 'title': 'washington, d.c. sculpture', 'created_at': '2014-02-14T02:47:48.656Z', 'updated_at': '2014-02-14T02:47:48.656Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: (Andrew) Jackson
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 118419, 'answer': '(Andrew) Jackson', 'question': "In the center of Lafayette Square you'll find not Lafayette but this Tennessean seventh president", 'value': 200, 'airdate': '2013-03-06T12:00:00.000Z', 'created_at': '2014-02-14T02:47:48.868Z', 'updated_at': '2014-02-14T02:47:48.868Z', 'category_id': 16201, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 16201, 'title': 'washington, d.c. sculpture', 'created_at': '2014-02-14T02:47:48.656Z', 'updated_at': '2014-02-14T02:47:48.656Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: (Andrew) Jackson
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-dj3v",{"micros":131296,"calls":["discord-sessions-green-prd-2-111",{"micros":130197,"calls":["start_session",{"micros":60046,"calls":["discord-api-f67d8d77-l4pfr",{"micros":45283,"calls":["get_user",{"micros":10256},"add_authorized_ip",{"micros":3626},"get_guilds",{"micros":4660},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":46614,"calls":[]}]}]}] (Session ID: 6f4425057d4ea636a91f1a64b9ee109c).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 118419, 'answer': '(Andrew) Jackson', 'question': "In the center of Lafayette Square you'll find not Lafayette but this Tennessean seventh president", 'value': 200, 'airdate': '2013-03-06T12:00:00.000Z', 'created_at': '2014-02-14T02:47:48.868Z', 'updated_at': '2014-02-14T02:47:48.868Z', 'category_id': 16201, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 16201, 'title': 'washington, d.c. sculpture', 'created_at': '2014-02-14T02:47:48.656Z', 'updated_at': '2014-02-14T02:47:48.656Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: (Andrew) Jackson
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-gwcl",{"micros":162937,"calls":["discord-sessions-green-prd-2-88",{"micros":161664,"calls":["start_session",{"micros":72770,"calls":["discord-api-f67d8d77-fh87d",{"micros":64180,"calls":["get_user",{"micros":10702},"add_authorized_ip",{"micros":4755},"get_guilds",{"micros":9646},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":46216,"calls":[]}]}]}] (Session ID: fc6e44990828ae885a5848da12136287).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 154669, 'answer': 'the Continental Army', 'question': 'Declaration signer Dr. Benjamin Rush quit this army led by Washington over its hospital management', 'value': 1000, 'airdate': '2014-10-15T12:00:00.000Z', 'created_at': '2015-01-22T02:41:48.116Z', 'updated_at': '2015-01-22T02:41:48.116Z', 'category_id': 18078, 'game_id': 4696, 'invalid_count': None, 'category': ObservedDict(value={'id': 18078, 'title': 'no rush', 'created_at': '2015-01-18T18:17:59.102Z', 'updated_at': '2015-01-18T18:17:59.102Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: the Continental Army
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 128746, 'answer': 'Mercury', 'question': 'This messenger of the gods "and the Woodman"', 'value': 1000, 'airdate': '2013-10-07T12:00:00.000Z', 'created_at': '2015-01-18T18:15:32.672Z', 'updated_at': '2015-01-18T18:15:32.672Z', 'category_id': 2053, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 2053, 'title': "aesop's fables", 'created_at': '2014-02-11T22:57:51.398Z', 'updated_at': '2014-02-11T22:57:51.398Z', 'clues_count': 20})})
+INFO:root:Answer post-decoding: Mercury
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-cbv1",{"micros":82421,"calls":["discord-sessions-green-prd-2-52",{"micros":81431,"calls":["start_session",{"micros":42083,"calls":["discord-api-f67d8d77-8d2cc",{"micros":36650,"calls":["get_user",{"micros":9424},"add_authorized_ip",{"micros":1777},"get_guilds",{"micros":3772},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17138,"calls":[]}]}]}] (Session ID: 70b42f107acc0e6af20f4668b75c4392).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 32142, 'answer': 'Leaping', 'question': '"On the tenth day of Christmas my true love gave to me, ten lords" a-doin\' this', 'value': 200, 'airdate': '1998-12-23T12:00:00.000Z', 'created_at': '2014-02-11T23:04:50.531Z', 'updated_at': '2014-02-11T23:04:50.531Z', 'category_id': 2748, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 2748, 'title': 'a christmas songbook', 'created_at': '2014-02-11T23:00:57.008Z', 'updated_at': '2014-02-11T23:00:57.008Z', 'clues_count': 25})})
+INFO:root:Answer post-decoding: Leaping
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 68030, 'answer': 'France', 'question': "Mexico's Cinco de Mayo celebrates its victory over this country's troops at Puebla in 1862", 'value': 600, 'airdate': '2004-11-12T12:00:00.000Z', 'created_at': '2014-02-11T23:29:55.531Z', 'updated_at': '2014-02-11T23:29:55.531Z', 'category_id': 8792, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 8792, 'title': 'holidays and observances', 'created_at': '2014-02-11T23:29:55.051Z', 'updated_at': '2014-02-11T23:29:55.051Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: France
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-80p7",{"micros":142134,"calls":["discord-sessions-green-prd-2-102",{"micros":138036,"calls":["start_session",{"micros":102359,"calls":["discord-api-f67d8d77-r75br",{"micros":95382,"calls":["get_user",{"micros":14271},"add_authorized_ip",{"micros":5706},"get_guilds",{"micros":16917},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ff2b3796299c719690a744e26f86d52b).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-2ms2",{"micros":157073,"calls":["discord-sessions-green-prd-2-14",{"micros":154079,"calls":["start_session",{"micros":92984,"calls":["discord-api-f67d8d77-559vd",{"micros":86847,"calls":["get_user",{"micros":26995},"add_authorized_ip",{"micros":2786},"get_guilds",{"micros":17411},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: b31453efd87be66b38058be82c60b94d).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 11634, 'answer': 'Sister Act 2', 'question': 'This sequel was subtitled \x93Back in the Habit\x94', 'value': 400, 'airdate': '1994-05-02T12:00:00.000Z', 'created_at': '2014-02-11T22:53:15.942Z', 'updated_at': '2014-02-11T22:53:15.942Z', 'category_id': 1320, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 1320, 'title': '1993 movies', 'created_at': '2014-02-11T22:53:15.570Z', 'updated_at': '2014-02-11T22:53:15.570Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: Sister Act 2
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-s8tr",{"micros":94033,"calls":["discord-sessions-green-prd-2-53",{"micros":87389,"calls":["start_session",{"micros":75253,"calls":["discord-api-8786555cd-kf5ll",{"micros":70026,"calls":["get_user",{"micros":18212},"add_authorized_ip",{"micros":1776},"get_guilds",{"micros":10966},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":6631,"calls":[]}]}]}] (Session ID: 3a72b1b1cbb7e03ec45840e060428a09).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 130853, 'answer': 'Frank Sinatra', 'question': 'This Rat Packer gained prominence in the singing group The Hoboken Four', 'value': 200, 'airdate': '2014-10-30T12:00:00.000Z', 'created_at': '2015-01-18T18:17:39.816Z', 'updated_at': '2015-01-18T18:17:39.816Z', 'category_id': 18025, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 18025, 'title': 'let me be perfectly frank', 'created_at': '2015-01-18T18:17:39.688Z', 'updated_at': '2015-01-18T18:17:39.688Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: Frank Sinatra
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-6v4c",{"micros":85455,"calls":["discord-sessions-green-prd-2-38",{"micros":84628,"calls":["start_session",{"micros":40947,"calls":["discord-api-8786555cd-p62mn",{"micros":36526,"calls":["get_user",{"micros":7562},"add_authorized_ip",{"micros":1901},"get_guilds",{"micros":4512},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":38161,"calls":[]}]}]}] (Session ID: 52a475c12e7e85fb8bb08fbbf0547afe).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 59327, 'answer': 'Virginia', 'question': 'Maryland is "the Old Line State"; this is "the Old Dominion"', 'value': 600, 'airdate': '2004-05-21T12:00:00.000Z', 'created_at': '2014-02-11T23:23:13.841Z', 'updated_at': '2014-02-11T23:23:13.841Z', 'category_id': 7592, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 7592, 'title': 'u.s. geographic nicknames', 'created_at': '2014-02-11T23:23:13.502Z', 'updated_at': '2014-02-11T23:23:13.502Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: Virginia
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 3671, 'answer': 'National Organization of Women', 'question': 'A feminist might tell you it\'s what the letters in "NOW" stand for', 'value': 100, 'airdate': '1988-06-28T12:00:00.000Z', 'created_at': '2014-02-11T22:49:05.469Z', 'updated_at': '2014-02-11T22:49:05.469Z', 'category_id': 306, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 306, 'title': 'potpourriiii', 'created_at': '2014-02-11T22:48:12.939Z', 'updated_at': '2014-12-08T12:51:44.677Z', 'clues_count': 320})})
+INFO:root:Answer post-decoding: National Organization of Women
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-4trn",{"micros":156844,"calls":["discord-sessions-green-prd-2-139",{"micros":154656,"calls":["start_session",{"micros":92112,"calls":["discord-api-8786555cd-wcpkd",{"micros":87003,"calls":["get_user",{"micros":16080},"add_authorized_ip",{"micros":4991},"get_guilds",{"micros":26182},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23415,"calls":[]}]}]}] (Session ID: eff9ee03ffdd557f02bdb4b5c8db3c43).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 125997, 'answer': 'giggle', 'question': 'This kind of laugh is one letter off from the word for a group of geese', 'value': 200, 'airdate': '2014-02-11T12:00:00.000Z', 'created_at': '2015-01-18T18:12:46.881Z', 'updated_at': '2015-01-18T18:12:46.881Z', 'category_id': 17304, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 17304, 'title': 'ha ha', 'created_at': '2015-01-18T18:12:46.613Z', 'updated_at': '2015-01-18T18:12:46.613Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: giggle
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 154245, 'answer': 'Xtremanator', 'question': 'Xzibit,Xtremanator,DMX', 'value': 1000, 'airdate': '2014-11-04T12:00:00.000Z', 'created_at': '2015-01-22T02:41:21.445Z', 'updated_at': '2015-01-22T02:41:21.445Z', 'category_id': 18010, 'game_id': 4717, 'invalid_count': None, 'category': ObservedDict(value={'id': 18010, 'title': 'not a successful rap musician', 'created_at': '2015-01-18T18:17:34.472Z', 'updated_at': '2015-01-18T18:17:34.472Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: Xtremanator
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Timers.question_timer() done, defined at main.py:159> exception=KeyError('question')>
+Traceback (most recent call last):
+  File "main.py", line 163, in question_timer
+    print(db["guilds"][guild]["question"]["id"])
+  File "/home/runner/Jeopardy/venv/lib/python3.8/site-packages/replit/database/database.py", line 323, in __getitem__
+    return self.value[k]
+KeyError: 'question'
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-g7pd",{"micros":74729,"calls":["discord-sessions-green-prd-2-132",{"micros":70284,"calls":["start_session",{"micros":56203,"calls":["discord-api-8786555cd-xwhqs",{"micros":51179,"calls":["get_user",{"micros":13053},"add_authorized_ip",{"micros":1655},"get_guilds",{"micros":13951},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 9f48aed9fca7572b58794ea49669fc9a).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-3jl7",{"micros":105481,"calls":["discord-sessions-green-prd-2-4",{"micros":104367,"calls":["start_session",{"micros":74258,"calls":["discord-api-8786555cd-b56s8",{"micros":69447,"calls":["get_user",{"micros":11696},"add_authorized_ip",{"micros":1899},"get_guilds",{"micros":14234},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":11286,"calls":[]}]}]}] (Session ID: 023c74297575c85105eb5e4e1389194f).
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:No active question
+INFO:root:found an answer!
+INFO:root:No active question
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 75553, 'answer': 'oysters', 'question': "A fish called the feather blenny lays its eggs in this mollusk's shells", 'value': 400, 'airdate': '2005-10-20T12:00:00.000Z', 'created_at': '2014-02-11T23:35:26.670Z', 'updated_at': '2014-02-11T23:35:26.670Z', 'category_id': 9897, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 9897, 'title': 'aquatic life', 'created_at': '2014-02-11T23:35:26.358Z', 'updated_at': '2014-02-11T23:35:26.358Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: oysters
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
