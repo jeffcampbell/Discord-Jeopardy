@@ -864,3 +864,521 @@ WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
 INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
 INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-6v4c",{"micros":100538,"calls":["discord-sessions-green-prd-2-63",{"micros":99273,"calls":["start_session",{"micros":68866,"calls":["discord-api-8786555cd-6j5sj",{"micros":62245,"calls":["get_user",{"micros":15226},"add_authorized_ip",{"micros":2157},"get_guilds",{"micros":7442},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 64c4e1a543f92d295930612a1ba86563).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 141357, 'answer': 'Laverne & Shirley', 'question': 'A couple of title Milwaukee gals helped make Shotz Beer on this show', 'value': 400, 'airdate': '2013-04-04T12:00:00.000Z', 'created_at': '2015-01-22T02:28:23.112Z', 'updated_at': '2015-01-22T02:28:23.112Z', 'category_id': 16100, 'game_id': 4137, 'invalid_count': None, 'category': ObservedDict(value={'id': 16100, 'title': 'fictional beer', 'created_at': '2014-02-14T02:47:14.518Z', 'updated_at': '2014-02-14T02:47:14.518Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: Laverne & Shirley
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 130536, 'answer': 'San Francisco', 'question': 'Jerry Garcia', 'value': 600, 'airdate': '2014-11-14T12:00:00.000Z', 'created_at': '2015-01-18T18:17:20.879Z', 'updated_at': '2015-01-18T18:17:20.879Z', 'category_id': 17978, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 17978, 'title': 'city of birth', 'created_at': '2015-01-18T18:17:20.215Z', 'updated_at': '2015-01-18T18:17:20.215Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: San Francisco
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 64c4e1a543f92d295930612a1ba86563 under trace ["gateway-prd-main-2jcf",{"micros":2470,"calls":["discord-sessions-green-prd-2-63",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 64c4e1a543f92d295930612a1ba86563 under trace ["gateway-prd-main-j3cn",{"micros":673,"calls":["discord-sessions-green-prd-2-63",{"micros":18}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 64c4e1a543f92d295930612a1ba86563 under trace ["gateway-prd-main-msf0",{"micros":667,"calls":["discord-sessions-green-prd-2-63",{"micros":24}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-6dtt",{"micros":136903,"calls":["discord-sessions-green-prd-2-3",{"micros":129472,"calls":["start_session",{"micros":77793,"calls":["discord-api-8786555cd-k8d4p",{"micros":71563,"calls":["get_user",{"micros":12654},"add_authorized_ip",{"micros":4374},"get_guilds",{"micros":14363},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ad3e2830407318a8abd4ba67ad2dde8f).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ad3e2830407318a8abd4ba67ad2dde8f under trace ["gateway-prd-main-6xdx",{"micros":587,"calls":["discord-sessions-green-prd-2-3",{"micros":25}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-kbdt",{"micros":96819,"calls":["discord-sessions-green-prd-2-79",{"micros":92504,"calls":["start_session",{"micros":54956,"calls":["discord-api-645d794f4c-s5hb9",{"micros":49287,"calls":["get_user",{"micros":8703},"add_authorized_ip",{"micros":1638},"get_guilds",{"micros":12916},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d4ad69ba39cca39f3cb04c9632405c76).
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:root:found an answer!
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-63rj",{"micros":11414,"calls":["discord-sessions-green-prd-2-79",{"micros":19}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-2sg1",{"micros":547,"calls":["discord-sessions-green-prd-2-79",{"micros":18}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-n9xv",{"micros":1781,"calls":["discord-sessions-green-prd-2-79",{"micros":21}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-vqnk",{"micros":5933,"calls":["discord-sessions-green-prd-2-79",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-czxg",{"micros":482,"calls":["discord-sessions-green-prd-2-79",{"micros":16}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-68nx",{"micros":13666,"calls":["discord-sessions-green-prd-2-79",{"micros":19}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-68nx",{"micros":873,"calls":["discord-sessions-green-prd-2-79",{"micros":21}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-2jcf",{"micros":1388,"calls":["discord-sessions-green-prd-2-79",{"micros":20}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-bc26",{"micros":825,"calls":["discord-sessions-green-prd-2-79",{"micros":22}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session d4ad69ba39cca39f3cb04c9632405c76 under trace ["gateway-prd-main-s6ml",{"micros":493,"calls":["discord-sessions-green-prd-2-79",{"micros":17}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-dj3v",{"micros":140282,"calls":["discord-sessions-green-prd-2-92",{"micros":139279,"calls":["start_session",{"micros":96706,"calls":["discord-api-645d794f4c-8b5cd",{"micros":90849,"calls":["get_user",{"micros":29334},"add_authorized_ip",{"micros":1290},"get_guilds",{"micros":23657},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9250,"calls":[]}]}]}] (Session ID: 4c9c9a813012f1659fc33eb6c9502517).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-vqnk",{"micros":89123,"calls":["discord-sessions-green-prd-2-119",{"micros":81807,"calls":["start_session",{"micros":62579,"calls":["discord-api-5cf5fd5f9-4gkwn",{"micros":55500,"calls":["get_user",{"micros":9993},"add_authorized_ip",{"micros":5136},"get_guilds",{"micros":7651},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":15497,"calls":[]}]}]}] (Session ID: 9ab8aebe62e525858e4deef5e416cdf5).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9ab8aebe62e525858e4deef5e416cdf5 under trace ["gateway-prd-main-z790",{"micros":693,"calls":["discord-sessions-green-prd-2-119",{"micros":34}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-f382",{"micros":116652,"calls":["discord-sessions-green-prd-2-115",{"micros":115452,"calls":["start_session",{"micros":66807,"calls":["discord-api-5cf5fd5f9-zpjht",{"micros":60927,"calls":["get_user",{"micros":10867},"add_authorized_ip",{"micros":4910},"get_guilds",{"micros":8430},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":14093,"calls":[]}]}]}] (Session ID: 65f50b831deec863e1f972f77cad5f7f).
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 65f50b831deec863e1f972f77cad5f7f under trace ["gateway-prd-main-gcct",{"micros":522,"calls":["discord-sessions-green-prd-2-115",{"micros":21}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-62t4",{"micros":123677,"calls":["discord-sessions-green-prd-2-147",{"micros":122784,"calls":["start_session",{"micros":74654,"calls":["discord-api-b69489cd9-km6xl",{"micros":66834,"calls":["get_user",{"micros":17838},"add_authorized_ip",{"micros":3235},"get_guilds",{"micros":8897},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":41224,"calls":[]}]}]}] (Session ID: ec4baf34b6465ec9751e3e48f8131ce0).
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ec4baf34b6465ec9751e3e48f8131ce0 under trace ["gateway-prd-main-mpxb",{"micros":638,"calls":["discord-sessions-green-prd-2-147",{"micros":21}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ec4baf34b6465ec9751e3e48f8131ce0 under trace ["gateway-prd-main-ltm2",{"micros":654,"calls":["discord-sessions-green-prd-2-147",{"micros":19}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-14m2",{"micros":81567,"calls":["discord-sessions-green-prd-2-51",{"micros":80595,"calls":["start_session",{"micros":56555,"calls":["discord-api-b69489cd9-zkjpx",{"micros":50971,"calls":["get_user",{"micros":9634},"add_authorized_ip",{"micros":2499},"get_guilds",{"micros":7587},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19251,"calls":[]}]}]}] (Session ID: 8f8c428d26e52335d14789b35a3f0762).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 8f8c428d26e52335d14789b35a3f0762 under trace ["gateway-prd-main-hgr7",{"micros":493,"calls":["discord-sessions-green-prd-2-51",{"micros":18}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-9m0b",{"micros":64460,"calls":["discord-sessions-green-prd-2-172",{"micros":63445,"calls":["start_session",{"micros":38986,"calls":["discord-api-b69489cd9-27z4f",{"micros":34327,"calls":["get_user",{"micros":7343},"add_authorized_ip",{"micros":1575},"get_guilds",{"micros":5101},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 02b2b7bebf781b7f32446e3c142984dd).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.client:Cleaning up tasks.
+INFO:discord.client:Closing the event loop.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-d9b1",{"micros":71473,"calls":["discord-sessions-green-prd-2-8",{"micros":70097,"calls":["start_session",{"micros":55193,"calls":["discord-api-b69489cd9-prdz6",{"micros":49720,"calls":["get_user",{"micros":11049},"add_authorized_ip",{"micros":1476},"get_guilds",{"micros":12223},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":14037,"calls":[]}]}]}] (Session ID: c7a78ddaff13246e394b6adf3e26f4cf).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session c7a78ddaff13246e394b6adf3e26f4cf under trace ["gateway-prd-main-qsjt",{"micros":824,"calls":["discord-sessions-green-prd-2-8",{"micros":21}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session c7a78ddaff13246e394b6adf3e26f4cf under trace ["gateway-prd-main-62t4",{"micros":12610,"calls":["discord-sessions-green-prd-2-8",{"micros":18}]}].
+INFO:root:found an answer!
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session c7a78ddaff13246e394b6adf3e26f4cf under trace ["gateway-prd-main-s1m9",{"micros":759,"calls":["discord-sessions-green-prd-2-8",{"micros":18}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-r3pm",{"micros":75476,"calls":["discord-sessions-green-prd-2-28",{"micros":64392,"calls":["start_session",{"micros":42367,"calls":["discord-api-b69489cd9-556sp",{"micros":37855,"calls":["get_user",{"micros":9757},"add_authorized_ip",{"micros":2377},"get_guilds",{"micros":5295},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: ebfba8b6c138d7139f230411a86e9c45).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ebfba8b6c138d7139f230411a86e9c45 under trace ["gateway-prd-main-30zx",{"micros":820,"calls":["discord-sessions-green-prd-2-28",{"micros":24}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ebfba8b6c138d7139f230411a86e9c45 under trace ["gateway-prd-main-xkb7",{"micros":594,"calls":["discord-sessions-green-prd-2-28",{"micros":23}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ebfba8b6c138d7139f230411a86e9c45 under trace ["gateway-prd-main-gt6c",{"micros":632,"calls":["discord-sessions-green-prd-2-28",{"micros":20}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session ebfba8b6c138d7139f230411a86e9c45 under trace ["gateway-prd-main-hgr7",{"micros":7134,"calls":["discord-sessions-green-prd-2-28",{"micros":17}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-dxj0",{"micros":107531,"calls":["discord-sessions-green-prd-2-53",{"micros":106460,"calls":["start_session",{"micros":88227,"calls":["discord-api-b69489cd9-tc9jd",{"micros":79627,"calls":["get_user",{"micros":17203},"add_authorized_ip",{"micros":5395},"get_guilds",{"micros":15193},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11305,"calls":[]}]}]}] (Session ID: 61ab1ae3404f2d46cd5542fe7ae15ba3).
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 61ab1ae3404f2d46cd5542fe7ae15ba3 under trace ["gateway-prd-main-bvnr",{"micros":713,"calls":["discord-sessions-green-prd-2-53",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 61ab1ae3404f2d46cd5542fe7ae15ba3 under trace ["gateway-prd-main-np6j",{"micros":494,"calls":["discord-sessions-green-prd-2-53",{"micros":17}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-gt6c",{"micros":142686,"calls":["discord-sessions-green-prd-2-8",{"micros":139160,"calls":["start_session",{"micros":74817,"calls":["discord-api-b69489cd9-zljh2",{"micros":69995,"calls":["get_user",{"micros":8099},"add_authorized_ip",{"micros":1860},"get_guilds",{"micros":17448},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":8403,"calls":[]}]}]}] (Session ID: 02c3140b24dc7fc05f8321340aed12e2).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-36xm",{"micros":604,"calls":["discord-sessions-green-prd-2-8",{"micros":24}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-7n0v",{"micros":1300,"calls":["discord-sessions-green-prd-2-8",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-n2td",{"micros":619,"calls":["discord-sessions-green-prd-2-8",{"micros":20}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-6dtt",{"micros":4025,"calls":["discord-sessions-green-prd-2-8",{"micros":23}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-30zx",{"micros":757,"calls":["discord-sessions-green-prd-2-8",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 02c3140b24dc7fc05f8321340aed12e2 under trace ["gateway-prd-main-6xkf",{"micros":1365,"calls":["discord-sessions-green-prd-2-8",{"micros":20}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-5dv9",{"micros":72900,"calls":["discord-sessions-green-prd-2-77",{"micros":71925,"calls":["start_session",{"micros":59345,"calls":["discord-api-b69489cd9-2qqc2",{"micros":54595,"calls":["get_user",{"micros":11924},"add_authorized_ip",{"micros":1693},"get_guilds",{"micros":10468},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2384,"calls":[]}]}]}] (Session ID: cb4824c3397d27fe5e77713a8308863a).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-x5gq",{"micros":81015,"calls":["discord-sessions-green-prd-2-169",{"micros":79624,"calls":["start_session",{"micros":44064,"calls":["discord-api-b69489cd9-h4ktt",{"micros":39892,"calls":["get_user",{"micros":8741},"add_authorized_ip",{"micros":1502},"get_guilds",{"micros":7866},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: adb240987ab44dfa0b2126cf086d0769).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-cnxl",{"micros":113932,"calls":["discord-sessions-green-prd-2-99",{"micros":112824,"calls":["start_session",{"micros":66367,"calls":["discord-api-b69489cd9-nhhmc",{"micros":53925,"calls":["get_user",{"micros":9244},"add_authorized_ip",{"micros":1444},"get_guilds",{"micros":7138},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 5f0c8642b3423c4d4410852a5db854ee).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 5f0c8642b3423c4d4410852a5db854ee under trace ["gateway-prd-main-v81p",{"micros":783,"calls":["discord-sessions-green-prd-2-99",{"micros":23}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-2jcf",{"micros":46961,"calls":["discord-sessions-green-prd-2-162",{"micros":43498,"calls":["start_session",{"micros":35277,"calls":["discord-api-b69489cd9-c2dvl",{"micros":31626,"calls":["get_user",{"micros":6137},"add_authorized_ip",{"micros":1256},"get_guilds",{"micros":8024},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6245,"calls":[]}]}]}] (Session ID: e74dfb18d793176e8a1e2b92545bb7c9).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e74dfb18d793176e8a1e2b92545bb7c9 under trace ["gateway-prd-main-rng0",{"micros":7393,"calls":["discord-sessions-green-prd-2-162",{"micros":24}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e74dfb18d793176e8a1e2b92545bb7c9 under trace ["gateway-prd-main-b4zt",{"micros":750,"calls":["discord-sessions-green-prd-2-162",{"micros":24}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e74dfb18d793176e8a1e2b92545bb7c9 under trace ["gateway-prd-main-fcmh",{"micros":5690,"calls":["discord-sessions-green-prd-2-162",{"micros":20}]}].
+INFO:root:found an answer!
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e74dfb18d793176e8a1e2b92545bb7c9 under trace ["gateway-prd-main-msf0",{"micros":5503,"calls":["discord-sessions-green-prd-2-162",{"micros":22}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e74dfb18d793176e8a1e2b92545bb7c9 under trace ["gateway-prd-main-3nzg",{"micros":9076,"calls":["discord-sessions-green-prd-2-162",{"micros":16}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-qx01",{"micros":202666,"calls":["discord-sessions-green-prd-2-162",{"micros":201775,"calls":["start_session",{"micros":132410,"calls":["discord-api-b69489cd9-jlcwt",{"micros":117121,"calls":["get_user",{"micros":31818},"add_authorized_ip",{"micros":5609},"get_guilds",{"micros":27217},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":34061,"calls":[]}]}]}] (Session ID: 4560f199079e45361ae45f08233f6a21).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-n5ls",{"micros":88561,"calls":["discord-sessions-green-prd-2-3",{"micros":81940,"calls":["start_session",{"micros":55457,"calls":["discord-api-b69489cd9-jlcwt",{"micros":51737,"calls":["get_user",{"micros":11608},"add_authorized_ip",{"micros":3242},"get_guilds",{"micros":12447},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: c0db98f141acdefd43c1b91de8f4e955).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-vd7c",{"micros":120122,"calls":["discord-sessions-green-prd-2-41",{"micros":119182,"calls":["start_session",{"micros":66805,"calls":["discord-api-b69489cd9-jxp2s",{"micros":53301,"calls":["get_user",{"micros":7600},"add_authorized_ip",{"micros":3523},"get_guilds",{"micros":5192},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":11214,"calls":[]}]}]}] (Session ID: f85ef2b1579fce84efd41dfeb4c7461e).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session f85ef2b1579fce84efd41dfeb4c7461e under trace ["gateway-prd-main-36xm",{"micros":590,"calls":["discord-sessions-green-prd-2-41",{"micros":17}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-4cg6",{"micros":140801,"calls":["discord-sessions-green-prd-2-143",{"micros":136158,"calls":["start_session",{"micros":56538,"calls":["discord-api-b69489cd9-52g7j",{"micros":51666,"calls":["get_user",{"micros":12808},"add_authorized_ip",{"micros":3141},"get_guilds",{"micros":4049},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":40029,"calls":[]}]}]}] (Session ID: 805ee27804c4208cf5a4e9175ab67d3b).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 805ee27804c4208cf5a4e9175ab67d3b under trace ["gateway-prd-main-7xkv",{"micros":679,"calls":["discord-sessions-green-prd-2-143",{"micros":20}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 805ee27804c4208cf5a4e9175ab67d3b under trace ["gateway-prd-main-znr8",{"micros":674,"calls":["discord-sessions-green-prd-2-143",{"micros":19}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 805ee27804c4208cf5a4e9175ab67d3b under trace ["gateway-prd-main-rh58",{"micros":561,"calls":["discord-sessions-green-prd-2-143",{"micros":21}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 805ee27804c4208cf5a4e9175ab67d3b under trace ["gateway-prd-main-kl1n",{"micros":7653,"calls":["discord-sessions-green-prd-2-143",{"micros":19}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 805ee27804c4208cf5a4e9175ab67d3b under trace ["gateway-prd-main-nfbx",{"micros":1257,"calls":["discord-sessions-green-prd-2-143",{"micros":33}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-lqv1",{"micros":86300,"calls":["discord-sessions-green-prd-2-8",{"micros":85539,"calls":["start_session",{"micros":54577,"calls":["discord-api-b69489cd9-vcb7c",{"micros":49949,"calls":["get_user",{"micros":9619},"add_authorized_ip",{"micros":1822},"get_guilds",{"micros":12577},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23560,"calls":[]}]}]}] (Session ID: 27f5d0edb07647e8ec177d9b230655a9).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-vhjr",{"micros":5643,"calls":["discord-sessions-green-prd-2-8",{"micros":24}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-1623",{"micros":597,"calls":["discord-sessions-green-prd-2-8",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-pb9f",{"micros":682,"calls":["discord-sessions-green-prd-2-8",{"micros":17}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-wrc4",{"micros":563,"calls":["discord-sessions-green-prd-2-8",{"micros":16}]}].
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-wrc4",{"micros":719,"calls":["discord-sessions-green-prd-2-8",{"micros":34}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-thmf",{"micros":464,"calls":["discord-sessions-green-prd-2-8",{"micros":19}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 27f5d0edb07647e8ec177d9b230655a9 under trace ["gateway-prd-main-qsjt",{"micros":666,"calls":["discord-sessions-green-prd-2-8",{"micros":30}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-13jp",{"micros":138616,"calls":["discord-sessions-green-prd-2-1",{"micros":137541,"calls":["start_session",{"micros":50478,"calls":["discord-api-b69489cd9-lhl9b",{"micros":45025,"calls":["get_user",{"micros":6772},"add_authorized_ip",{"micros":1562},"get_guilds",{"micros":9442},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":37915,"calls":[]}]}]}] (Session ID: e9ea69dedaffff0b236bb21e2475e25f).
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session e9ea69dedaffff0b236bb21e2475e25f under trace ["gateway-prd-main-b4zt",{"micros":8041,"calls":["discord-sessions-green-prd-2-1",{"micros":18}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-7pv5",{"micros":105711,"calls":["discord-sessions-green-prd-2-127",{"micros":104453,"calls":["start_session",{"micros":45705,"calls":["discord-api-b69489cd9-82g9g",{"micros":39861,"calls":["get_user",{"micros":9478},"add_authorized_ip",{"micros":1674},"get_guilds",{"micros":5628},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 6af6a4bd3f669c8b6695931eb06cb387).
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 6af6a4bd3f669c8b6695931eb06cb387 under trace ["gateway-prd-main-znr8",{"micros":710,"calls":["discord-sessions-green-prd-2-127",{"micros":20}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 6af6a4bd3f669c8b6695931eb06cb387 under trace ["gateway-prd-main-7dz7",{"micros":518,"calls":["discord-sessions-green-prd-2-127",{"micros":29}]}].
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 6af6a4bd3f669c8b6695931eb06cb387 under trace ["gateway-prd-main-7jx0",{"micros":929,"calls":["discord-sessions-green-prd-2-127",{"micros":16}]}].
+INFO:root:found an answer!
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 6af6a4bd3f669c8b6695931eb06cb387 under trace ["gateway-prd-main-3q0l",{"micros":472,"calls":["discord-sessions-green-prd-2-127",{"micros":22}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-wrc4",{"micros":53047,"calls":["discord-sessions-green-prd-2-98",{"micros":51154,"calls":["start_session",{"micros":32999,"calls":["discord-api-b69489cd9-v5xnv",{"micros":29392,"calls":["get_user",{"micros":6260},"add_authorized_ip",{"micros":1419},"get_guilds",{"micros":4573},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4726,"calls":[]}]}]}] (Session ID: 7e2e89638a8b3703616f548157f26399).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-wft8",{"micros":112442,"calls":["discord-sessions-green-prd-2-90",{"micros":111833,"calls":["start_session",{"micros":43824,"calls":["discord-api-b69489cd9-m4vjg",{"micros":37864,"calls":["get_user",{"micros":8969},"add_authorized_ip",{"micros":1635},"get_guilds",{"micros":3515},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 09d6bc9e40ece6699259a72ae721d9a0).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 134381, 'answer': 'G.I. Joe', 'question': 'In 1970 this action figure took on a more peaceful role, recovering mummies & helping the environment', 'value': 800, 'airdate': '2012-04-10T12:00:00.000Z', 'created_at': '2015-01-22T02:21:14.267Z', 'updated_at': '2015-01-22T02:21:14.267Z', 'category_id': 15040, 'game_id': 3868, 'invalid_count': None, 'category': ObservedDict(value={'id': 15040, 'title': "i'm ready to play, today", 'created_at': '2014-02-14T02:40:59.045Z', 'updated_at': '2014-02-14T02:40:59.045Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: G.I. Joe
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:Found a question for wikipedia
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-qs73",{"micros":56419,"calls":["discord-sessions-green-prd-2-79",{"micros":55298,"calls":["start_session",{"micros":40741,"calls":["discord-api-b69489cd9-t464f",{"micros":35983,"calls":["get_user",{"micros":7652},"add_authorized_ip",{"micros":1608},"get_guilds",{"micros":5002},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 07c56ab968b6a0743e502d8b84776e61).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-t8kr",{"micros":105570,"calls":["discord-sessions-green-prd-2-70",{"micros":104637,"calls":["start_session",{"micros":61634,"calls":["discord-api-b69489cd9-jg868",{"micros":56903,"calls":["get_user",{"micros":12015},"add_authorized_ip",{"micros":2636},"get_guilds",{"micros":16931},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 0033f14d186ef9966c6c6ffd07364b81).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-ljpc",{"micros":117256,"calls":["discord-sessions-green-prd-2-58",{"micros":115802,"calls":["start_session",{"micros":93232,"calls":["discord-api-b69489cd9-j2rxd",{"micros":89411,"calls":["get_user",{"micros":14223},"add_authorized_ip",{"micros":4306},"get_guilds",{"micros":17916},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":20442,"calls":[]}]}]}] (Session ID: f8ef99c3530d2ee4939dbdd523edd740).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-s8tr",{"micros":108049,"calls":["discord-sessions-green-prd-2-86",{"micros":106917,"calls":["start_session",{"micros":58645,"calls":["discord-api-b69489cd9-d5bl8",{"micros":55049,"calls":["get_user",{"micros":11321},"add_authorized_ip",{"micros":5591},"get_guilds",{"micros":13135},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":30508,"calls":[]}]}]}] (Session ID: 0a82b6271e138c51789d22def707a596).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-8s6d",{"micros":70895,"calls":["discord-sessions-green-prd-2-30",{"micros":70015,"calls":["start_session",{"micros":46842,"calls":["discord-api-b69489cd9-t25d5",{"micros":42752,"calls":["get_user",{"micros":7574},"add_authorized_ip",{"micros":1406},"get_guilds",{"micros":7497},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":5235,"calls":[]}]}]}] (Session ID: 7b70cfdceaff3f1dfb08078a504ba446).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 25703, 'answer': 'Arrhythmia', 'question': 'This term for an irregular heartbeat is from the Greek for "without measure"', 'value': 400, 'airdate': '1997-11-28T12:00:00.000Z', 'created_at': '2014-02-11T23:01:14.547Z', 'updated_at': '2014-02-11T23:01:14.547Z', 'category_id': 2808, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 2808, 'title': 'the tell-tale heart', 'created_at': '2014-02-11T23:01:14.149Z', 'updated_at': '2014-02-11T23:01:14.149Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: Arrhythmia
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:No active question
+INFO:root:Found a question for wikipedia
+WARNING:root:Potential disambiguation: 
+"Fulcrum" may refer to: 
+  Agent Alexsandr Kallus
+  Ahsoka Tano
+  Fulcrum (Anglican think tank)
+  Fulcrum (Antarctica)
+  Fulcrum (Chuck)
+  Fulcrum (annual)
+  Fulcrum (drumming)
+  Fulcrum (newspaper)
+  Fulcrum (sculpture)
+  Fulcrum Press
+  Fulcrum Wheels
+  Fulcrum weeder
+  Mikoyan MiG-29
+  Operation Fulcrum
+  The Fulcrum (comics)
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 144810, 'answer': 'cool (jazz)', 'question': 'Keep your hot jazz; I prefer this opposite type, a word found in a 1957 Miles Davis album title', 'value': 400, 'airdate': '2012-10-25T12:00:00.000Z', 'created_at': '2015-01-22T02:31:44.581Z', 'updated_at': '2015-01-22T02:31:44.581Z', 'category_id': 16619, 'game_id': 3999, 'invalid_count': None, 'category': ObservedDict(value={'id': 16619, 'title': 'taste', 'created_at': '2014-02-14T02:50:25.624Z', 'updated_at': '2014-02-14T02:50:25.624Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: cool (jazz)
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 126285, 'answer': 'Amtrak', 'question': 'May 1, 1971:This federally supported corporation began its passenger train service', 'value': 800, 'airdate': '2014-01-29T12:00:00.000Z', 'created_at': '2015-01-18T18:13:04.173Z', 'updated_at': '2015-01-18T18:13:04.173Z', 'category_id': 17348, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 17348, 'title': 'on the first of the month', 'created_at': '2015-01-18T18:13:03.123Z', 'updated_at': '2015-01-18T18:13:03.123Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: Amtrak
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-w2h3",{"micros":106561,"calls":["discord-sessions-green-prd-2-38",{"micros":103186,"calls":["start_session",{"micros":53404,"calls":["discord-api-b69489cd9-hp26p",{"micros":48675,"calls":["get_user",{"micros":9387},"add_authorized_ip",{"micros":5554},"get_guilds",{"micros":7702},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":18446,"calls":[]}]}]}] (Session ID: 5d3cad6445b8bce28af6ffd727f2bc9d).
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 108912, 'answer': 'Humpty Dumpty', 'question': "We're still trying to figure out why royal equines aided in the surgery to save this guy who enjoyed living life on the edge", 'value': 400, 'airdate': '2012-07-06T12:00:00.000Z', 'created_at': '2014-02-14T02:39:19.754Z', 'updated_at': '2014-02-14T02:39:19.754Z', 'category_id': 14759, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 14759, 'title': 'deconstructing the nursery rhyme', 'created_at': '2014-02-14T02:39:19.391Z', 'updated_at': '2014-02-14T02:39:19.391Z', 'clues_count': 10})})
+INFO:root:Answer post-decoding: Humpty Dumpty
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 84897, 'answer': '(Harry) Truman', 'question': 'On June 28, 1919 the buck stopped for Bess Wallace when she married this young man, home from WWI', 'value': 800, 'airdate': '2008-05-14T12:00:00.000Z', 'created_at': '2014-02-11T23:42:41.067Z', 'updated_at': '2014-02-11T23:42:41.067Z', 'category_id': 11145, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 11145, 'title': 'brewers, bucks & packers', 'created_at': '2014-02-11T23:42:40.302Z', 'updated_at': '2014-02-11T23:42:40.302Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: (Harry) Truman
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:Found a question for wikipedia
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 58600, 'answer': 'the Hatfields', 'question': "Legendary feudin' enemies of the McCoys", 'value': 200, 'airdate': '2004-06-24T12:00:00.000Z', 'created_at': '2014-02-11T23:22:41.165Z', 'updated_at': '2014-02-11T23:22:41.165Z', 'category_id': 7495, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 7495, 'title': '"hat" check', 'created_at': '2014-02-11T23:22:40.950Z', 'updated_at': '2014-02-11T23:22:40.950Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: the Hatfields
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:root:found an answer!
+INFO:root:Found active question
+INFO:root:Answer pre-decoding: ObservedDict(value={'id': 57248, 'answer': 'cotton', 'question': 'Accounting for half of all U.S. exports in 1855, this crop was "King"', 'value': 200, 'airdate': '2002-10-03T12:00:00.000Z', 'created_at': '2014-02-11T23:21:36.446Z', 'updated_at': '2014-02-11T23:21:36.446Z', 'category_id': 7307, 'game_id': None, 'invalid_count': None, 'category': ObservedDict(value={'id': 7307, 'title': 'the fabulous (18)50s', 'created_at': '2014-02-11T23:21:36.340Z', 'updated_at': '2014-02-11T23:21:36.340Z', 'clues_count': 5})})
+INFO:root:Answer post-decoding: cotton
+INFO:root:Checking for user...
+INFO:root:User found, updating score...
+INFO:root:Done.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 5d3cad6445b8bce28af6ffd727f2bc9d under trace ["gateway-prd-main-nsqn",{"micros":676,"calls":["discord-sessions-green-prd-2-38",{"micros":23}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-l3f1",{"micros":69243,"calls":["discord-sessions-green-prd-2-7",{"micros":68085,"calls":["start_session",{"micros":51496,"calls":["discord-api-b69489cd9-mdxnl",{"micros":46082,"calls":["get_user",{"micros":6737},"add_authorized_ip",{"micros":1234},"get_guilds",{"micros":9330},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":13654,"calls":[]}]}]}] (Session ID: 5fcf31fe048cc9147e52a2e481fd0f0e).
+INFO:discord.gateway:Websocket closed with 1006, attempting a reconnect.
+INFO:discord.client:Got a request to RESUME the websocket.
+INFO:discord.gateway:Shard ID None has sent the RESUME payload.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 5fcf31fe048cc9147e52a2e481fd0f0e under trace ["gateway-prd-main-hdbm",{"micros":2093,"calls":["discord-sessions-green-prd-2-7",{"micros":38}]}].
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-b4zt",{"micros":106163,"calls":["discord-sessions-green-prd-2-30",{"micros":104889,"calls":["start_session",{"micros":80797,"calls":["discord-api-6bf8fc4dc4-vts2q",{"micros":75491,"calls":["get_user",{"micros":21531},"add_authorized_ip",{"micros":5831},"get_guilds",{"micros":8154},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22079,"calls":[]}]}]}] (Session ID: 038ccf9af23e874638244ec5d0597e18).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-thmf",{"micros":72398,"calls":["discord-sessions-green-prd-2-70",{"micros":71348,"calls":["start_session",{"micros":49736,"calls":["discord-api-6bf8fc4dc4-z9l6n",{"micros":45302,"calls":["get_user",{"micros":11900},"add_authorized_ip",{"micros":1605},"get_guilds",{"micros":8550},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":16745,"calls":[]}]}]}] (Session ID: 9f97a21c854a0ee9681f2a163f5746d4).
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has sent the IDENTIFY payload.
+INFO:discord.gateway:Shard ID None has connected to Gateway: ["gateway-prd-main-v49w",{"micros":71603,"calls":["discord-sessions-green-prd-2-99",{"micros":70582,"calls":["start_session",{"micros":33477,"calls":["discord-api-6bf8fc4dc4-n76jp",{"micros":28973,"calls":["get_user",{"micros":7045},"add_authorized_ip",{"micros":1226},"get_guilds",{"micros":4552},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":9404,"calls":[]}]}]}] (Session ID: ec394baee2f3de013d90a321b40e8535).

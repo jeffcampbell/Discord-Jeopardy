@@ -18,12 +18,13 @@ discord_token = os.environ['discord_bot_token']
 
 class Jeopardy:
     async def get_question(guild, message, channel):
-      if str(guild.id) not in db["guilds"]:
+      if str(guild.id) not in db["guilds"] or message.author not in db["players"]:
         ### This is the start of the funnel if someone triggers the bot, so we'll set it up here.
         Bot.setup(guild,message.author)
       ### I re-use this a lot. To-do is to clean it up.
       gld = db["guilds"][str(guild.id)]
       if gld["active_question"] is True:
+        print("Active question for {}".format(gld["wikipedia"]))
         embed=discord.Embed(title="Category: {}".format(gld["question"]["category"]["title"]), description="For ${}, {}".format(gld["question"]["value"],gld["question"]["question"]))
         await channel.send(embed=embed)
     
@@ -31,6 +32,7 @@ class Jeopardy:
         jservice = "https://jservice.io/api/random"
         score = None
         while not score:
+            print("Getting question")
             question = requests.get(jservice).json()
             score = question[0]["value"]
             if not score:
@@ -56,9 +58,9 @@ class Jeopardy:
         await channel.send("Could not find question. Perhaps something is wrong?")
     
     async def check_answer(guild, message, channel, player):
-        if str(guild) not in db["guilds"]:
-          Bot.setup(guild,message.author)
-        gld = db["guilds"][str(guild)]
+        if str(guild.id) not in db["guilds"]:
+          Bot.setup(guild,player)
+        gld = db["guilds"][str(guild.id)]
         if gld["active_question"] == False:
             logging.info("No active question")    
         else:
@@ -92,7 +94,7 @@ class Bot:
         db["guilds"] = {}
       if not pcheck:
         db["players"] = {}
-      guild_id = str(guild)
+      guild_id = str(guild.id)
       if guild_id not in db["guilds"]:
         print("Creating Guild... ")
         db["guilds"][guild_id] = {}
@@ -214,7 +216,7 @@ async def on_message(message):
 
   if question_format:
     logging.info("found an answer!")
-    await Jeopardy.check_answer(message.guild.id,message.content,channel,message.author)
+    await Jeopardy.check_answer(message.guild,message.content,channel,message.author)
 
 @client.event
 async def on_reaction_add(reaction, user):
