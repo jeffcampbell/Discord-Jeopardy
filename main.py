@@ -71,18 +71,18 @@ class Jeopardy:
             logging.info("Answer post-decoding: {}".format(decoded))
             check = fuzz.ratio(message,decoded)
             score = gld["question"]["value"]
-            if gld["question"]["id"] == db["players"][player.display_name]["last_question"]:
+            if gld["question"]["id"] == db["players"][str(player.id)]["last_question"]:
                 await channel.send("You have already tried to answer this question, {}!".format(player.display_name))
     
             elif check > 60:
                 Bot.update_score(guild, player, score, gld["question"]["id"])
-                await channel.send("That is correct, {}! Your score is now ${}.".format(player.display_name,db["players"][player.display_name]["score"]))
+                await channel.send("That is correct, {}! Your score is now ${}.".format(player.display_name,db["players"][str(player.id)]["score"]))
                 del gld["question"]
                 gld["active_question"] = False
             else:
                 score = score * -1
                 Bot.update_score(guild, player, score, gld["question"]["id"])
-                await channel.send("That is incorrect, {}! Your score is now ${}.".format(player.display_name,db["players"][player.display_name]["score"]))
+                await channel.send("That is incorrect, {}! Your score is now ${}.".format(player.display_name,db["players"][str(player.id)]["score"]))
     
 class Bot:
     def setup(guild,player):
@@ -99,12 +99,17 @@ class Bot:
         print("Creating Guild... ")
         db["guilds"][guild_id] = {}
         db["guilds"][guild_id]["active_question"] = False
-      if player.display_name not in db["players"]:
+      if str(player.id) not in db["players"]:
         print("Creating Player... " + player.display_name)
-        db["players"][player.display_name] = {}
-        db["players"][player.display_name]["guild"] = guild_id
-        db["players"][player.display_name]["score"] = 0
-        db["players"][player.display_name]["last_question"] = 0
+        pl_id = str(player.id)
+        db["players"][pl_id] = {}
+        db["players"][pl_id]["name"] = player.display_name
+        db["players"][pl_id]["guild"] = guild_id
+        db["players"][pl_id]["score"] = 0
+        db["players"][pl_id]["last_question"] = 0
+      elif db["players"][str(player.id)]["guild"] != guild_id:
+        print("re-assigning player to current guild")
+        db["players"][str(player.id)]["guild"] = guild_id
     
     def admin_tools(guild,user,channel,action):
       if not user.guild_permissions.administrator:
@@ -123,7 +128,7 @@ class Bot:
         leaders = {}
         ### This is a very cumbersome way to search for players, but it's such a small database that it shouldn't be a problem.
         if db["players"][player]["guild"] == str(guild):
-          leader = {player: {'name': player, 'score': db["players"][player]["score"]}}
+          leader = {player: {'name': db["players"][player]["name"], 'score': db["players"][player]["score"]}}
           leaders.update(leader)
         leaderboard = "Let's take a look at the leaderboard:\n"
         place = 0
@@ -137,13 +142,13 @@ class Bot:
     def update_score(guild, player, score, question):
       logging.info("Checking for user...")
     
-      if not db["players"][player.display_name]:
+      if not db["players"][str(player.id)]:
         logging.info("No user found, adding...")
         Bot.setup(guild,player)
       else:
         logging.info("User found, updating score...")
-        db["players"][player.display_name]["score"] = score + db["players"][player.display_name]["score"]
-        db["players"][player.display_name]["last_question"] = question
+        db["players"][str(player.id)]["score"] = score + db["players"][str(player.id)]["score"]
+        db["players"][str(player.id)]["last_question"] = question
       logging.info("Done.")
     
       return score
